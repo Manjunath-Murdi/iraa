@@ -1,0 +1,236 @@
+.navbar {
+    padding: 0;
+    max-width: 100%;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-family: algerian;
+    margin-right: 1em;
+    font-size: 24px;
+    align-items: center;
+}
+
+body {
+    position: relative;
+    background-color: #020202;
+}
+
+.background {
+    background-image: url(images/e4c697dc8d7eb6d0cb8e460045135cbd.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 1400px 600px;
+    /* background-size: cover; */
+}
+
+.title h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    top: 200px;
+    font-weight: bolder;
+    font-size: 72px;
+}
+
+.title h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    top: 210px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    top: 460px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h5 {
+    color: white;
+    position: relative;
+    top: 470px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    top: 480px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.venue {
+    color: white;
+    position: relative;
+    top: 600px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.row {
+    position: relative;
+    top: 510px;
+}
+
+.carousel {
+    position: relative;
+    background: #020202;
+    top: 500px;
+}
+
+.carousel-item {
+    text-align: center;
+    min-height: 280px;
+}
+
+.block {
+    position: relative;
+    background-color: #020202;
+    background-size: cover;
+}
+
+.borders {
+    background: goldenrod;
+    border: 4px solid goldenrod;
+    position: relative;
+    top: 620px;
+}
+
+@media screen and (max-width:640px) {
+    #container {
+        width: 100%;
+    }
+    #navbar {
+        width: 100%;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+    }
+    #lists {
+        position: relative;
+        font-size: 12px;
+        padding: 0;
+    }
+    #background {
+        max-width: 100%;
+        position: relative;
+        background-size: 1400px 600px;
+    }
+    #body {
+        width: 100%;
+    }
+    #title h1 {
+        width: 100%;
+        font-size: 32px;
+        top: 250px;
+    }
+    #title h3 {
+        width: 100%;
+        font-size: 20px;
+        top: 260px;
+    }
+    #details {
+        position: relative;
+        width: 100%;
+        top: 80px;
+    }
+    #present3 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .venue {
+        width: 100%;
+        top: 520px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    #container {
+        width: 100%;
+    }
+    #navbar {
+        width: 100%;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    #lists {
+        position: relative;
+        font-size: 10px;
+        padding: 0;
+    }
+    #background {
+        width: 100%;
+        height: auto;
+        position: relative;
+        background-size: 320px 500px;
+    }
+    #body {
+        width: 100%;
+        background-size: 320px 568px;
+    }
+    #title h1 {
+        position: relative;
+        width: 100%;
+        font-size: 32px;
+        top: 180px;
+    }
+    #title h3 {
+        position: relative;
+        width: 100%;
+        font-size: 20px;
+        top: 190px;
+    }
+    #details {
+        position: relative;
+        margin: 0;
+        width: 100%;
+    }
+    #present1 {
+        position: relative;
+        width: 100;
+        font-size: 20px;
+        top: 300px;
+    }
+    #present3 {
+        position: relative;
+        width: 100;
+        font-size: 20px;
+        top: 300px;
+    }
+    #present5 {
+        position: relative;
+        width: 100;
+        font-size: 20px;
+        top: 300px;
+    }
+    .bs-example {
+        position: relative;
+        /* top: 100px; */
+    }
+    .carousel-item img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 40%;
+    }
+    .venue {
+        width: 100%;
+        top: 520px;
+    }
+}

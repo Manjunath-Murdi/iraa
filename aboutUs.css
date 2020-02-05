@@ -1,0 +1,15 @@
+.navbar {
+    padding: 0;
+    max-width: 100%;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-family: algerian;
+    margin-right: 1em;
+    font-size: 24px;
+    align-items: center;
+}
